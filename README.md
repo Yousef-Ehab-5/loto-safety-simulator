@@ -49,17 +49,8 @@ The core logic lives in `home_screen.dart`:
 - `activeIndex` — finds the first incomplete step; that's the only step
   the UI lets you interact with, which is what enforces the ordering.
 
-## How to run it
 
-You'll need the Flutter SDK installed (you already have this from your
-DEPI track). From inside the `loto_simulator` folder:
 
-```bash
-flutter pub get
-flutter run
-```
-
-Pick any connected device, emulator, or Chrome when prompted.
 
 ## Ideas to extend it
 
